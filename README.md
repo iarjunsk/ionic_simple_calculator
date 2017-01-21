@@ -1,5 +1,5 @@
 # Ionic-Simple Calculator
-![Image](https://raw.githubusercontent.com/arjunsk/ionic_simple_calculator/master/screen.png)
+![Image](https://raw.githubusercontent.com/arjunsk/ionic_simple_calculator/master/screen.jpg)
 
 
 
