@@ -1,0 +1,48 @@
+<ion-view style="" class=" " id="page9" title="Calculator">
+
+  <ion-content class="has-header" padding="false">
+
+
+
+    <div id="keypad">
+
+      <div class="horizontal display">
+        <input ng-model="screen" id="displayPanel" type="text" value="0"/>
+      </div>
+
+
+      <div class="horizontal">
+        <div ng-click="seven()" id="key7" data-rnc-tag="7" class="key">7</div>
+        <div ng-click="eigth()" id="key8" data-rnc-tag="8" class="key">8</div>
+        <div ng-click="nine()" id="key9" data-rnc-tag="9" class="key">9</div>
+        <div ng-click="plus()" id="keyAdd" class="key operation-key">+</div>
+      </div>
+      <div class="horizontal">
+        <div ng-click="four()" id="key4" data-rnc-tag="4" class="key">4</div>
+        <div ng-click="five()" id="key5" data-rnc-tag="5" class="key">5</div>
+        <div ng-click="six()" id="key6" data-rnc-tag="6" class="key">6</div>
+        <div ng-click="minus()"  id="keySubtract" class="key operation-key">-</div>
+      </div>
+      <div class="horizontal">
+        <div ng-click="one()"  id="key1" data-rnc-tag="1" class="key">1</div>
+        <div ng-click="two()"  id="key2" data-rnc-tag="2" class="key">2</div>
+        <div ng-click="three()"  id="key3" data-rnc-tag="3" class="key">3</div>
+        <div ng-click="multiply()"  id="keyMultiply" class="key operation-key">x</div>
+      </div>
+
+      <div class="horizontal ">
+        <div ng-click="clear()" id="keyC" data-rnc-tag="C" class="key control-key">CE</div>
+        <div ng-click="zero()" id="keyPlusMinus" class="key control-key">0</div>
+        <div ng-click="equal()" id="keyPercent" class="key control-key">=</div>
+        <div ng-click="divide()" id="keyDivide" class="key operation-key">/</div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+  </ion-content>
+</ion-view>
